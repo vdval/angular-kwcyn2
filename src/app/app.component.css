@@ -1,5 +1,8 @@
+body {
+  font : 72%/1.5 "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; }
+
+  h2, h3, h4, p, ul, blockquote {
+    margin : 0 20px .75em;
+  }
 p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  
-}
+  font-size : 100%; }
