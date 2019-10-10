@@ -1,18 +1,18 @@
 
-<hello name="{{ name }}"></hello>
+<div><hello name="{{ name }}"></hello></div>
 
+<p>Passer la souris sur la fenêtre et choisir le jour ci-dessous pour connaître la semaine. Ceci est juste du HTML5. Et on a souvent besoin de connaître la semaine.</p>
 
-<p>
-  Start editing to see some magic happen :)<br><br>
+<p><input type="week" name="semaine"><br><br></p>
 
-Et oui, en commençant à éditer, on voit quelque chose de magique s'opérer ;)<br><br>
-Passer la souris sur la fenêtre et choisissez le jour ci-dessous pour connaître la semaine, ça vous permettra déjà de savoir quand vous êtes. <br><br>
+<p>Cette application web est créée avec Angular8 a priori et elle commence le 14/09/2019. Cela donne un repère rapide pour savoir où on en est de l'autoformation.</p><br><br>
 
-<input type="week" name="semaine"><br><br>
+<p>Aujourd'hui, nous sommes le<br><br><input type="datetime-local" name="date du jour"><br><br>Ceci est encore du HTML5 mais c'est un peu limité, on va intégrer la date, en utilisant le concept d'Angular8, c'est à dire les component et un peu de javascript.</p>
+<br><br>
 
-Cette application web est créée avec Angular et elle commence le 14/09/2019.  <br><br>
+<p>Ensuite, j'aimerais coder une petite application qui me permettrait de gérer mes temps de formation et d'autoformation : je vais avoir deux grands axes, d'un côté Access et de l'autre Angular8.<br><br>
 
-Aujourd'hui, nous sommes le  <br><br><input type="datetime-local" name="date du jour">
- <br><br>
+Et chacun d'eux implique d'autres langages.<br><br> Par ailleurs, je voudrais commencer à tester l'interpolation (dans le titre en haut), le event binding, le property binding, le two way binding...<br><br>
 
-</p>
+<button (click)=date>Date du jour suivie d'un petit calcul qui donne le temps passé sur chaque cours, par exemple...</button></p>
+
